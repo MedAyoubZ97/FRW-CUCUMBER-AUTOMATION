@@ -14,7 +14,7 @@ import io.cucumber.junit.CucumberOptions;
 		snippets = CAMELCASE
 		)
 
-public class RunWebSuitTest {
+public class TestRunner {
 	
 	
 
