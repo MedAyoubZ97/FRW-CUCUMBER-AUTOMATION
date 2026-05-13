@@ -181,7 +181,7 @@
 			<configuration>
                 <systemPropertyVariables>
                     <allure.results.directory>
-                        ${project.build.directory}/allure-results
+                        target/allure-results
                     </allure.results.directory>
                 </systemPropertyVariables>
             </configuration>
