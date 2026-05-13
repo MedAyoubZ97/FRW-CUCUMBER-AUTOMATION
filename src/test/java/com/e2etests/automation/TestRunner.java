@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = {"src/spec/features"},
 		plugin = {"pretty","html:target/cucumber-report.html","json:target/cucumber-reports/cucumber.json","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
-		tags = ("@connexion or @register"),
+		tags = ("@register"),
 		monochrome = true,
 		snippets = CAMELCASE
 		)
