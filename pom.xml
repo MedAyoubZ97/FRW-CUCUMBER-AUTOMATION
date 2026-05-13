@@ -149,13 +149,6 @@
 			<groupId>io.qameta.allure</groupId>
 			<artifactId>allure-cucumber7-jvm</artifactId>
 			<version>${allure.version}</version>
-			<configuration>
-                <systemPropertyVariables>
-                    <allure.results.directory>
-                        target/allure-results
-                    </allure.results.directory>
-                </systemPropertyVariables>
-            </configuration>
 		</dependency>
 
 		<dependency>
@@ -189,6 +182,13 @@
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.3.0</version>
+					<configuration>
+                <systemPropertyVariables>
+                    <allure.results.directory>
+                        target/allure-results
+                    </allure.results.directory>
+                </systemPropertyVariables>
+            </configuration>
 				</plugin>
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
