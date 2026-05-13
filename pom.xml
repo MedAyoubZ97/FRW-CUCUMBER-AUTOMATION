@@ -61,6 +61,11 @@
              <artifactId>selenium-devtools-v148</artifactId>
              <version>${selenium.version}</version>
          </dependency>
+         <dependency>
+             <groupId>org.seleniumhq.selenium</groupId>
+             <artifactId>selenium-devtools-v125</artifactId>
+             <version>4.36.0</version>
+         </dependency>    
 
 
         <dependency>
