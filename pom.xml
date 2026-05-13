@@ -62,11 +62,6 @@
              <version>${selenium.version}</version>
          </dependency>
 
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-devtools-v148</artifactId>
-            <version>${selenium.version}</version>
-        </dependency>
 
         <dependency>
             <groupId>org.apache.poi</groupId>
@@ -81,11 +76,6 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>${selenium.version}</version>
-        </dependency>
 
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
