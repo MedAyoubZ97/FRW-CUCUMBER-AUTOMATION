@@ -149,6 +149,13 @@
 			<groupId>io.qameta.allure</groupId>
 			<artifactId>allure-cucumber7-jvm</artifactId>
 			<version>${allure.version}</version>
+			configuration>
+                <systemPropertyVariables>
+                    <allure.results.directory>
+                        target/allure-results
+                    </allure.results.directory>
+                </systemPropertyVariables>
+            </configuration>
 		</dependency>
 
 		<dependency>
